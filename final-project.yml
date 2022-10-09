@@ -262,7 +262,7 @@ Resources:
     Type: AWS::AutoScaling::LaunchConfiguration
     Properties:
       ImageId: ami-00ddb0e5626798373
-      InstanceType: t3.small
+      InstanceType: t3.medium
       UserData:
         Fn::Base64: !Sub |
           #!/bin/bash
